@@ -1,53 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-body{
+body {
 
-background-color: grey;
+    background-color: grey;
 
 }
 
 
-.container{
+.container {
     width: 100%;
     background-color: grey;
     margin-top: 2rem;
     height: 100vh;
 
 
-    
-}
-
-
-
-.app{
-
-background-color: purple;
-height: 90vh;
-width: 80%;
-display: flex;
-margin: auto;
-
-
-    
 
 }
 
 
-.left{
+
+.app {
+
+    background-color: purple;
+    height: 90vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+
+
+
+
+}
+
+
+.left {
     width: 30%;
     background-color: red;
     height: 5rem;
     height: 100%;
-    
+
 }
 
 
-.right{
+.right {
     width: 70%;
     background-color: black;
     height: 100%;
@@ -55,29 +55,29 @@ margin: auto;
 }
 
 
-.header{
+.header {
     width: 100%;
     background-color: blue;
-    height: 15%
+    height: 20%;
+
 }
 
 
-.color{
-    background-color:burlywood;
+.color {
+    background-color: burlywood;
     height: 20%
-    
 }
 
 
-.notification{
+.notification {
     width: 100%;
-    background-color:blueviolet;
+    background-color: blueviolet;
     height: 20%
 }
 
 
 
-.container_chat{
+.container_chat {
     width: 100%;
     background-color: azure;
     height: 10%;
@@ -86,16 +86,16 @@ margin: auto;
 }
 
 
-.chat{
+.chat {
     margin: auto;
     width: 80%;
     height: 30px;
     background-color: bisque;
-    
+
 
 }
 
-.contacts{
+.contacts {
     width: 100%;
     background-color: cadetblue;
     height: 50%;
@@ -104,17 +104,18 @@ margin: auto;
 
 
 
-.send{
+.send {
     width: 100%;
     background-color: blueviolet;
     height: 10%;
+    min-height: 30px;
 
 }
 
 
-.main_message{
+.main_message {
     width: 100%;
-    height: 75%;
+    height: 70%;
     background-color: bisque;
 }
 
@@ -142,24 +143,52 @@ margin: auto;
 /* responsive */
 
 
-    
-/* 
-@media screen and (max-width: 991px){ 
 
-    .left{
-        width: 20%;
+
+@media screen and (max-width: 991px) {
+
+
+    .left {
+        width: 10%;
     }
 
 
-    .right{
-        width: 80%;
+    .right {
+        width: 90%;
+    }
+
+    .notification {
+        display: none;
+    }
+
+    .container_chat {
+        display: none;
     }
 
 
+    .contacts {
+        height: 80%;
+    }
+
+    .header {
+        min-height: 84px;
+        height: 20%;
+
+    }
+
+
+    .send{
+        height: 10%;
+        min-height: 30px;
+    }
+
+
+    .contacts{
+        min-height: 165px;
+        height: 92%;
+    }
+
+}
 
 
 
-
-
-
-} */
