@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+background-color: grey;
+
+}
+
+
+.container{
+    width: 100%;
+    background-color: aqua;
+    margin-top: 2rem;
+    height: 100vh;
+
+
+    
+}
+
+
+
+.app{
+
+background-color: purple;
+height: 500px;
+width: 80%;
+display: flex;
+margin: auto;
+
+
+    
+
+}
+
+
+.left{
+    width: 30%;
+    background-color: red;
+    height: 5rem;
+    height: 100%;
+    
+}
+
+
+.right{
+    width: 70%;
+    background-color: black;
+    height: 100%;
+
+}
+
+
+.header{
+    width: 100%;
+    background-color: blue;
+    height: 80px;
+}
+
+
+.color{
+    background-color:burlywood;
+}
