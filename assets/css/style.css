@@ -24,6 +24,7 @@
 
     .search {
         background-color: palegoldenrod;
+        display: flex;
     }
 
     .contacts_list {
@@ -102,12 +103,17 @@ body {
             }
 
 
-            .list-profile{
+            .list-profile {
                 display: none;
             }
-            .img-link-user{
+
+            .img-link-user {
                 display: flex;
                 justify-content: center;
+            }
+
+            .display-left-none{
+                display: none;
             }
 
 
@@ -192,28 +198,133 @@ body {
     padding: 5px;
 }
 
-.link-contact{
+.link-contact {
     width: 50%;
     display: flex;
     justify-content: end;
     align-items: center;
     padding: 5px;
-    
+
 }
 
 
 
-.contact_profile{
+.contact_profile {
     display: flex;
 
 }
 
 
-.img{
+.img {
     border-radius: 2rem;
+    object-fit: contain;
 }
 
 
-#c-gray{
+#c-gray {
     color: grey;
+}
+
+
+/* notification */
+.notifications-container {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+
+
+
+}
+
+
+.silent {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+
+
+
+}
+
+
+.notifications-messages {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.notifications {
+    padding: 5px;
+
+
+}
+
+
+.notification-desktop {
+    text-decoration: underline;
+    color: gray;
+    display: contents;
+}
+
+
+
+
+.color {
+    color: #8EDAFC;
+
+}
+
+
+/* search */
+.container-search {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: white;
+    height: 25px;
+    align-items: center;
+
+}
+
+.m-left{
+    margin-left: 1rem;
+    color: #787878;
+
+}
+
+
+/* contacts_list */
+.container-list{
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.font{
+    font-size: small;
+    margin-top: 5px;
+}
+
+
+
+.hours{
+
+    color: gray;
+    font-size: smaller;
+}
+
+.display-left-none{
+    display: flex;
 }
