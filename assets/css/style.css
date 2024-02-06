@@ -46,6 +46,7 @@
 
     .prompt {
         background-color: deeppink;
+        display: flex;
     }
 }
 
@@ -112,7 +113,7 @@ body {
                 justify-content: center;
             }
 
-            .display-left-none{
+            .display-left-none {
                 display: none;
             }
 
@@ -182,6 +183,7 @@ body {
     text-decoration: none;
     color: grey;
     padding: 10px;
+    font-size: x-large;
 }
 
 
@@ -293,7 +295,7 @@ body {
 
 }
 
-.m-left{
+.m-left {
     margin-left: 1rem;
     color: #787878;
 
@@ -301,30 +303,61 @@ body {
 
 
 /* contacts_list */
-.container-list{
+.container-list {
     background-color: white;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
 
 
 
-.font{
+.font {
     font-size: small;
     margin-top: 5px;
 }
 
 
 
-.hours{
+.hours {
 
     color: gray;
     font-size: smaller;
 }
 
-.display-left-none{
+.display-left-none {
     display: flex;
+}
+
+
+/* prompt */
+
+.container-prompt {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    height: 80%;
+    align-items: center;
+}
+
+
+.text {
+    height: 80%;
+    background-color: white;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: gray;
+}
+
+
+
+.font-x-lg{
+    font-size: x-large;
+
 }
