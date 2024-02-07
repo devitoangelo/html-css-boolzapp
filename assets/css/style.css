@@ -361,6 +361,14 @@ body {
     padding: 10px;
     border-radius: 5px;
     color: gray;
+
+    > input{
+        width: 100%;
+
+  
+
+        
+    }
 }
 
 
@@ -380,3 +388,18 @@ body {
 .d-f{
     display: flex;
 }
+
+
+
+
+.p-l{
+    padding-left: 0.5rem;
+
+    > input{
+        width: 13rem;
+
+    }
+}
+
+
+
