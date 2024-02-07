@@ -382,11 +382,11 @@ body {
 }
 
 
+
+
 .d-f {
     display: flex;
 }
-
-
 
 
 .p-l {
@@ -398,6 +398,42 @@ body {
         outline-color: white;
 
     }
+
+
+}
+
+
+
+/* bonus */
+nav:hover li {
+
+    display: flex;
+
+
+
+}
+
+
+nav:hover .listalista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.listalista {
+    background-color: white;
+    width: 150px;
+    height: 80px;
+    position: fixed;
+    display: none;
+
+}
+
+li {
+    list-style: none;
+    display: none;
+
 
 
 }
