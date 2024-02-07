@@ -10,20 +10,21 @@
 }
 
 .debug * {
-    /* border: 1px dashed black; */
+
 }
 
 .debug {
     .user_profile {
-        background-color: palevioletred;
+        background-color: #EAEAEA;
     }
 
     .notifications {
-        background-color: palegreen;
+        background-color: #8EDAFC;
+
     }
 
     .search {
-        background-color: palegoldenrod;
+        background-color: #EAEAEA;
         display: flex;
     }
 
@@ -33,20 +34,20 @@
 
 
     .contact_profile {
-        background-color: palevioletred;
+        background-color: #EAEAEA;
     }
 
     .chat {
-        background-color: deepskyblue;
+        background-image: url(/html-css-boolzapp/assets/img/mine.jpg);
 
         >div {
-            width: 300px;
+            width: 340px;
         }
     }
 
     .prompt {
-        background-color: deeppink;
         display: flex;
+        background-color: #F3EEEA;
     }
 }
 
@@ -151,10 +152,17 @@ body {
 
             >.sent {
                 align-self: flex-end;
+                background-color: #D5F9BA; 
+                border-radius: 1rem;    
+                padding: 0.5rem;
+
             }
 
             >.received {
                 align-self: flex-start;
+                background-color: white;
+                border-radius: 1rem;
+                padding: 0.5rem;
             }
 
         }
@@ -360,4 +368,15 @@ body {
 .font-x-lg{
     font-size: x-large;
 
+}
+
+
+
+.hours-chat{
+    text-align: end;
+}
+
+
+.d-f{
+    display: flex;
 }
