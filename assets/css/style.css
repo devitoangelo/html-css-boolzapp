@@ -414,14 +414,14 @@ nav:hover li {
 }
 
 
-nav:hover .listalista{
+nav:hover .list-sent{
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 
-.listalista {
+.list-sent {
     background-color: white;
     width: 150px;
     height: 80px;
@@ -430,7 +430,7 @@ nav:hover .listalista{
 
 }
 
-li {
+.d-n {
     list-style: none;
     display: none;
 
